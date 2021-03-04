@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Información de bob esponja",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/iconoesponja.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    }
+  ],
+  "name": "Asombrossas fotos de bob esponja",
+  "short_name": "Bob esponja",
+  "start_url": "/WEBAPP_KMMD/index.html"
+}
