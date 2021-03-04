@@ -18,6 +18,10 @@ if ('serviceWorker' in navigator) {
     .then(() => { console.log('Registrado'); });
 }
 
+let deferredPrompt;
+const addBtn = document.querySelector('.add-button');
+addBtn.style.display = 'none';
+
 window.addEventListener('antesdeinstalarelaviso', (e) => {
   e.preventDefault();
   deferredPrompt = e;
