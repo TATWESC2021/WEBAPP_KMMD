@@ -1,6 +1,6 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open('fox-store').then((cache) => cache.addAll([
+    caches.open('bob esponja-store').then((cache) => cache.addAll([
       '/WEBAPP_KMMD/',
       '/WEBAPP_KMMD/index.html',
       '/WEBAPP_KMMD/index.js',
