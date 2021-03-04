@@ -15,14 +15,14 @@ setInterval(() => {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
     .register('/WEBAPP_KMMD/sw.js')
-    .then(() => { console.log('Registrado'); });
+    .then(() => { console.log('Service Worker Registered'); });
 }
 
 let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
 addBtn.style.display = 'none';
 
-window.addEventListener('antesdeinstalarelaviso', (e) => {
+window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredPrompt = e;
   addBtn.style.display = 'block';
