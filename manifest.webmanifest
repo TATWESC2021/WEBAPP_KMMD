@@ -5,7 +5,7 @@
   "icons": [
     {
       "src": "icono/iconoesponja.png",
-      "sizes": "192x192",
+      "sizes": "384x384",
       "type": "image/png"
     }
   ],
