@@ -1,4 +1,4 @@
-const images = ['diablo-squad', 'diablosquad'];
+const images = ['img1', 'img2','img3','img4'];
 const imgElem = document.querySelector('img');
 
 function randomValueFromArray(array) {
@@ -7,8 +7,8 @@ function randomValueFromArray(array) {
 }
 
 setInterval(() => {
-  const randomChoice = randomValueFromArray(images);
-  imgElem.src = `images/${randomChoice}.jpg`;
+  const randomChoice = randomValueFromArray(imagen);
+  imgElem.src = `imagen/${randomChoice}.jpg`;
 }, 2000);
 
 
