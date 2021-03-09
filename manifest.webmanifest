@@ -2,7 +2,7 @@
   "background_color": "purple",
   "description": "Shows random sponge bob pictures",
   "display": "fullscreen",
-  "icono": [
+  "icon": [
     {
       "src": "icono/iconoesponja.jpg",
       "sizes": "192x192",
