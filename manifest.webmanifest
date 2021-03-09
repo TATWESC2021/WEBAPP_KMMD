@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Shows random diablo squad pictures",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/diablo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    }
+  ],
+  "name": "DIABLO SQUAD pictures",
+  "short_name": "DIABLO SQUAD",
+  "start_url": "/pwa-examples/a2hs/index.html"
+}
